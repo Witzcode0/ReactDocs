@@ -1,11 +1,15 @@
-import Greeting from "./components/FunctionBase"
+import GreetingClass from "./components/ClassBase"
+import CompInComp from "./components/Compincomp"
+import GreetingFunc from "./components/FunctionBase"
 
 
 function App() {
 
   return (
     <>
-      <Greeting name="brijesh" />
+      <GreetingFunc firstname="brijesh" lastname="gondaliya" />
+      <GreetingClass name="brijesh" />
+      <CompInComp />
     </>
   )
 }
