@@ -6,7 +6,7 @@ class Createstate extends React.Component {
         super(props);
         this.state = {
             background_color: 'red',
-            font_color: 'white',
+            font_color: 'orange',
             text: 'Create State'
         };
     }
@@ -14,7 +14,7 @@ class Createstate extends React.Component {
     render() {
         return (
             <div>
-                <h1 style={this.state.background_color}>{this.state.text}</h1>
+                <h1 style={{ color: this.state.font_color}}>{this.state.text}</h1>
                 <button>Change Color</button>
             </div>
         )
