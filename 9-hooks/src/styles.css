@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .light {
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  .dark {
+    background-color: #333;
+    color: #ffffff;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .light button {
+    background-color: #333;
+    color: white;
+  }
+  
+  .dark button {
+    background-color: white;
+    color: black;
+  }
+  
