@@ -21,21 +21,21 @@ function Counter() {
   const decrementButtonStyle =
     count === 0
       ? {
-          backgroundColor: "red",
-          margin: "10px",
-          padding: "5px",
-          border: "20px groove red",
-          borderRadius: "5px",
-          color: "White"
-        }
+        backgroundColor: "red",
+        margin: "10px",
+        padding: "5px",
+        border: "20px groove red",
+        borderRadius: "5px",
+        color: "White"
+      }
       : {
-          backgroundColor: "green",
-          margin: "10px",
-          padding: "5px",
-          border: "20px groove green",
-          borderRadius: "5px",
-          color: "White"
-        };
+        backgroundColor: "green",
+        margin: "10px",
+        padding: "5px",
+        border: "20px groove green",
+        borderRadius: "5px",
+        color: "White"
+      };
   const incrementButtonStyle = {
     backgroundColor: "green",
     margin: "10px",
