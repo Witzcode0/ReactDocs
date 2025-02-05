@@ -1,9 +1,12 @@
 // import Counter from "./components/UseState/UseStateMain"
 
-import Navbar from "./components/UseContext/Navbar";
-import { ThemeProvider } from "./components/UseContext/ThemeContextMain";
+import FocusInput from "./components/UseRef/FocusInput"
 
-import "./styles.css";
+// import { UserContextProvider } from "./components/UseContext/Usercontext"
+
+// import Navbar from "./components/UseContext/Navbar";
+// import { ThemeProvider } from "./components/UseContext/ThemeContextMain";
+// import "./styles.css";
 
 // import DocumentTitleUpdater from "./components/UseEffect/DocumentTitleUpdater"
 // import FilteredDataComponent from "./components/UseEffect/FilteredDataComponent"
@@ -31,9 +34,15 @@ function App() {
      {/* <MouseTracker /> */}
 
      {/* useContext */}
-     <ThemeProvider>
+     {/* <ThemeProvider>
        <Navbar />
-     </ThemeProvider>
+     </ThemeProvider> */}
+     {/* <UserContextProvider /> */}
+
+     <FocusInput/>
+
+
+
      
    
     </>
