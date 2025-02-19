@@ -23,6 +23,7 @@ function FocusInput() {
         inputRef.current.style.padding = "2px";
         inputRef.current.style.borderRadius = "5px";
         inputRef.current.style.color = "blue";
+        inputRef.current.focus(); // Auto focus the input field when the component mounts
     }, []);
 
     return (

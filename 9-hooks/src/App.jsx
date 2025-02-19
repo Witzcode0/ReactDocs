@@ -1,6 +1,9 @@
 // import Counter from "./components/UseState/UseStateMain"
 
+import PreviousStateManage from "./components/UseRef/PreviousStateManage"
+
 import FocusInput from "./components/UseRef/FocusInput"
+
 
 // import { UserContextProvider } from "./components/UseContext/Usercontext"
 
@@ -36,10 +39,11 @@ function App() {
      {/* useContext */}
      {/* <ThemeProvider>
        <Navbar />
-     </ThemeProvider> */}
+     </ThemeProvider>  */}
      {/* <UserContextProvider /> */}
 
      <FocusInput/>
+     <PreviousStateManage />
 
 
 
