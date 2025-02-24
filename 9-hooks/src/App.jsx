@@ -1,8 +1,14 @@
 // import Counter from "./components/UseState/UseStateMain"
 
-import PreviousStateManage from "./components/UseRef/PreviousStateManage"
+import ExpensiveComponent from "./components/UseMemo/ExpensiveComponent"
+import FactorialComponent from "./components/UseMemo/FactorialComponent"
 
-import FocusInput from "./components/UseRef/FocusInput"
+// import ShoppingCart from "./components/UseReducer/ShoppingCart"
+// import UserRegistrationForm from "./components/UseReducer/UserRegistrationForm"
+
+// import PreviousStateManage from "./components/UseRef/PreviousStateManage"
+
+// import FocusInput from "./components/UseRef/FocusInput"
 
 
 // import { UserContextProvider } from "./components/UseContext/Usercontext"
@@ -42,10 +48,17 @@ function App() {
      </ThemeProvider>  */}
      {/* <UserContextProvider /> */}
 
-     <FocusInput/>
-     <PreviousStateManage />
+     {/* <FocusInput/>
+     <PreviousStateManage /> */}
 
 
+      {/* <UserRegistrationForm/> */}
+
+      {/* <ShoppingCart/> */}
+
+      {/* <ExpensiveComponent /> */}
+
+      <FactorialComponent />
 
      
    
