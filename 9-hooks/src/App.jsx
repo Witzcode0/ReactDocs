@@ -1,7 +1,9 @@
 // import Counter from "./components/UseState/UseStateMain"
 
-import ExpensiveComponent from "./components/UseMemo/ExpensiveComponent"
-import FactorialComponent from "./components/UseMemo/FactorialComponent"
+import TodoList from "./components/UseCallback/TodoList"
+
+// import ExpensiveComponent from "./components/UseMemo/ExpensiveComponent"
+// import FactorialComponent from "./components/UseMemo/FactorialComponent"
 
 // import ShoppingCart from "./components/UseReducer/ShoppingCart"
 // import UserRegistrationForm from "./components/UseReducer/UserRegistrationForm"
@@ -58,7 +60,9 @@ function App() {
 
       {/* <ExpensiveComponent /> */}
 
-      <FactorialComponent />
+      {/* <FactorialComponent /> */}
+
+      <TodoList/>
 
      
    

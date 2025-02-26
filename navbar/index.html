@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>navbar</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <title>Navbar</title>
 </head>
 
 <body>
@@ -17,139 +17,39 @@
                     <img src="/assets/images/logo.png" alt="Logo">
                 </a>
             </div>
-            <div class="toggle_menu">
+            <div class="toggle_menu" id="toggle_menu">
                 <i class="bx bx-grid-alt"></i>
             </div>
-            <ul class="nav__list">
-                <div class="close__menu">
+            <ul class="nav__list" id="nav-menu">
+                <div class="close__menu" id="close__menu">
                     <i class="bx bx-x"></i>
                 </div>
-                <li class="nav__item"><a href="" class="nav__link">Home</a></li>
-                <li class="nav__item dropdown"><a href="" class="nav__link dropdown_link">Services <i
-                            class='bx bxs-chevron-down dropdown_icon'></i></a>
-                <div class="megamenu">
-                    <ul class="content">
-                        <li class="megamenu__item header_megamenu">Lorem ipsum dolor sit amet.</li>
-                        <li class="megamenu__item">
-                            <div class="menu__icon">
-                                <i class='bx bx-palette'></i>
-                            </div>
-                            <div class="megamenu__link">
-                                <a href="">UI bootcamp</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li class="megamenu__item">
-                            <div class="menu__icon">
-                                <i class='bx bx-palette'></i>
-                            </div>
-                            <div class="megamenu__link">
-                                <a href="">UI bootcamp</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li class="megamenu__item">
-                            <div class="menu__icon">
-                                <i class='bx bx-palette'></i>
-                            </div>
-                            <div class="megamenu__link">
-                                <a href="">UI bootcamp</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li class="megamenu__item">
-                            <div class="menu__icon">
-                                <i class='bx bx-palette'></i>
-                            </div>
-                            <div class="megamenu__link">
-                                <a href="">UI bootcamp</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="content">
-                        <li class="megamenu__item header_megamenu">Lorem ipsum dolor sit amet.</li>
-                        <li class="megamenu__item">
-                            <div class="menu__icon">
-                                <i class='bx bx-palette'></i>
-                            </div>
-                            <div class="megamenu__link">
-                                <a href="">UI bootcamp</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li class="megamenu__item">
-                            <div class="menu__icon">
-                                <i class='bx bx-palette'></i>
-                            </div>
-                            <div class="megamenu__link">
-                                <a href="">UI bootcamp</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li class="megamenu__item">
-                            <div class="menu__icon">
-                                <i class='bx bx-palette'></i>
-                            </div>
-                            <div class="megamenu__link">
-                                <a href="">UI bootcamp</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li class="megamenu__item">
-                            <div class="menu__icon">
-                                <i class='bx bx-palette'></i>
-                            </div>
-                            <div class="megamenu__link">
-                                <a href="">UI bootcamp</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="content">
-                        <li class="megamenu__item header_megamenu">Lorem ipsum dolor sit amet.</li>
-                        <li class="megamenu__item">
-                            <div class="menu__icon">
-                                <i class='bx bx-palette'></i>
-                            </div>
-                            <div class="megamenu__link">
-                                <a href="">UI bootcamp</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li class="megamenu__item">
-                            <div class="menu__icon">
-                                <i class='bx bx-palette'></i>
-                            </div>
-                            <div class="megamenu__link">
-                                <a href="">UI bootcamp</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li class="megamenu__item">
-                            <div class="menu__icon">
-                                <i class='bx bx-palette'></i>
-                            </div>
-                            <div class="megamenu__link">
-                                <a href="">UI bootcamp</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li class="megamenu__item">
-                            <div class="menu__icon">
-                                <i class='bx bx-palette'></i>
-                            </div>
-                            <div class="megamenu__link">
-                                <a href="">UI bootcamp</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>        
+                <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                <li class="nav__item dropdown">
+                    <a href="#" class="nav__link dropdown_link">Services <i class="bx bxs-chevron-down dropdown_icon"></i></a>
+                    <div class="megamenu">
+                        <ul class="content">
+                            <li class="megamenu__item header_megamenu">Our Services</li>
+                            <li class="megamenu__item">
+                                <div class="menu__icon"><i class="bx bx-palette"></i></div>
+                                <div class="megamenu__link">
+                                    <a href="#">UI Design</a>
+                                    <p>Modern UI for your website</p>
+                                </div>
+                            </li>
+                            <li class="megamenu__item">
+                                <div class="menu__icon"><i class="bx bx-code"></i></div>
+                                <div class="megamenu__link">
+                                    <a href="#">Web Development</a>
+                                    <p>Custom web applications</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
-                <li class="nav__item"><a href="" class="nav__link">Blog</a></li>
-                <li class="nav__item"><a href="" class="nav__link">About</a></li>
-                <li class="nav__item"><a href="" class="nav__link">Contact</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
             </ul>
         </nav>
     </header>
